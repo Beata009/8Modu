@@ -1,0 +1,31 @@
+{
+    "name": "Anna",     
+    "age": 25,
+    "eyecolor": "brown",
+    "is student": true,
+    "favouriteBook": {
+        "tilte": "Oczy Smoka",
+        "author": "Stephen King"
+    }
+
+}
+
+// 'Name' jest kluczem, 'Anna' jest wartością. Klucz name przechowuje wartość typu string, która reprezentuje imię osoby - w tym przypadku Anna
+
+// 'Age' jest kluczem, '25' jest wartością. Klucz age przechowuje wartość liczbową (integer), która reprezentuje wiek osoby - w tym przypadku 25
+
+// 'eyecolor'jest kluczem, 'brown' jest wartością. Klucz eyecolor przechowuje wartość typu string, która reprezentuje kolor oczu osoby
+
+// Klucz is student przechowuje wartość typu boolean (prawda/fałsz), która wskazuje, czy osoba jest studentem - w tym przypadku true (prawda).
+
+// Klucz favouriteBook przechowuje obiekt, który zawiera dodatkowe pary klucz-wartość, opisujące ulubioną książkę osoby.
+
+// Wewnątrz obiektu favouriteBook znajdują się kolejne pary klucz-wartość:
+// "title": "Oczy Smoka"
+// "author": "Stephen King"
+
+// Pary klucz-wartość ujęte są w klamry
+// Pary klucz wartość są sposobem organozowania danych np. w API:wymiana danych pomiędzy klientem a srewerem
+// Wartość to dane przechowywane pod danym kluczem. Mogą to być różne typy danych: string, number, boolean, object, itp.
+// Klucz to identyfikator, który jest przypisany do konkretnej wartości
+
